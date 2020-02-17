@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Podcast Project</title>
+     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aca42dcbf7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="#home"><img src="./images/logo.svg" alt="logo" /></a>
+            <label for="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </label>
+            <div class="menudesktop">
+                <a href="#episodios">EPISODIOS</a>
+                <a href="#nosotros">NOSOTROS</a>
+                <a href="#entrevistas">ENTREVISTAS</a>
+                <a href="#topicos">TÓPICOS</a>
+            </div>  
+        </div>  
+    </nav>
+
+    <input type="checkbox" id="menu-toggle"/>
+    <ul class="menumobile">
+        <label for="menu-toggle"><i class="fas fa-times"></i></label>
+        <li><a href="./#episodios">EPISODIOS</a></li>        
+        <li><a href="./#nosotroscel">NOSOTROS</a></li>
+        <li><a href="./#entrevistas">ENTREVISTAS</a> </li>
+        <li><a href="./#topicos">TÓPICOS</a></li>
+    </ul>
+
+    <div id="home" class="ancla">
+        <div>
+            <h1>Hello <s>world</s> pale blue dot</h1>
+        </div>
+    </div>
+
+    <div>
+        <p class="subtitulo">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+    </div>
+
+    <div>
+        <a href="https://spotify.com" class="boton">CONOCÉ MÁS</a>
+    </div>
+
+    <div class="episodios">
+        <div class="interiorepisodios">
+            <div class="titulo-episodios">
+                <p class="ancla" id="episodios">Episodios</p>
+            </div>
+            <div class="main-container">
+                <div class="player">
+                    <iframe src="https://open.spotify.com/embed-podcast/show/6xpiit8aJmwDHk1rKdxmri" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>    
+                <div class="player">
+                    <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+            <div class="main-container">
+                <div class="player">
+                    <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>    
+                <div class="player">
+                    <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+    <div id="nosotros" class="ancla">
+        <div class="phone">
+             <img src="./images/phone.png" alt="phone" style="width: 90%"/>
+        </div>
+        <div class="dondevenimos">
+             <div id="nosotroscel" class="ancla">
+                 <h2 style="margin: 0">De dónde venimos</h2>
+             </div>
+             <div>
+                 <p class="posturings">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.<br><br>
+                 Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+             </div>
+         </div>
+     </div>
+
+    <div id="entrevistas" class="ancla">
+        <h2>Invitadas/os estelares</h2>
+    </div>
+    
+    <div style="margin-top: 24px">
+        <div class="grillafotos">
+            <img src="./images/grace-hopper.png" alt="gracehopper" class="imgs">
+            <img src="./images/Katie-Bouman.png" alt="katiebpuman" class="imgs">
+            <img src="./images/Margaret_Hamilton.png" alt="margarethamilton" class="imgs">
+        </div>
+        <div class="grillafotos">
+            <img src="./images/An%20E.R.A.Univac%201103%20computer%20in%20the%201950s.png" alt="anne" class="imgs">
+            <img src="./images/Computer%20operators%20with%20an%20Eniac%20—%20the%20world’s%20first%20programmable%20general-purpose%20computer.png" alt="computeroperators" class="imgs">
+            <img src="./images/susan-kare.png" alt="susankare" class="imgs">
+        </div>
+    </div>
+
+    <div id="topicos" class="ancla">
+        <h2>Algunos de nuestros temas</h2>
+    </div>
+    
+    <div class="bloqueiconos">
+        <div class="cajaiconos">
+            <div class="iconos"><img src="./images/icon1.svg" alt="icon1"></div>
+            <div class="textoiconos"><h3>Repensando la programación</h3></div>
+        </div>
+        <div class="cajaiconos">
+            <div class="iconos"><img src="./images/icon2.svg" alt="icon2"></div>
+            <div class="textoiconos"><h3>Repensando la programación</h3></div>
+        </div>
+        <div class="cajaiconos">
+            <div class="iconos"><img src="./images/icon3.svg" alt="icon3"></div>
+            <div class="textoiconos"><h3>Bases del código</h3></div>
+        </div>
+        <div class="cajaiconos">
+            <div class="iconos"><img src="./images/icon4.svg" alt="icon4"></div>
+            <div class="textoiconos"><h3>Seguridad informática</h3></div>
+        </div>
+    </div>
+    
+    <div class="pie">
+        <div>
+            <h4>¿Querés las últimas novedades?</h4> 
+        </div>
+        <div>
+            <a href="http://google.com" class="botonpie">ESCUCHÁ LOS EPISODIOS</a>
+        </div>
+    </div>
+
+    <footer>
+        <div>© 2019 | Hello blue pale dot</div>
+        <div class="pielogos">
+            <a href="http://spotify.com" target="_blank"><i class="fab fa-spotify" aria-hidden="true" ></i></a> 
+            <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true" ></i></a>
+            <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter" aria-hidden="true" ></i></a>
+            <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true" ></i></a>
+            <a href="http://telegram.org" target="_blank"><i class="fab fa-telegram" aria-hidden="true" ></i></a> 
+        </div>
+    </footer>
+    
+</body>
